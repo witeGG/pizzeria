@@ -1,0 +1,183 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Cookie', cursive, Arial, Helvetica, sans-serif;
+    background: url("../pizzeria/background.jpg");
+}
+#navbar {
+    position: sticky;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+    top: 0;
+}
+#navbar > ul {
+    padding: 15px;
+    margin: 10px 0 10px auto;
+    width: 65%;
+}
+#navbar > ul > li{
+    font-size: 1.5rem;
+    display: inline;
+    list-style: none;
+    margin: 10px;
+    color: white;
+}
+#navbar > ul > li > a {
+    color: white;
+}
+#navbar a:hover {
+    color: rgb(255, 216, 132);
+    transition: all 200ms;
+}
+li [class="tel"] {
+    font-size: 0.6rem;
+}
+.logo {
+    padding: 5px;
+    padding-left: 10px;
+    float: left;
+}
+#navbar > ul::after {
+    content: 'Phone: 888-222-333';
+    color: white;
+    float: right;
+    margin-right: 50px;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+#intro {
+    font-family: cursive;
+}
+div.intro-container {
+    color:white;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    padding: 1px 1px 1px 10px;
+    display: flex;
+    box-sizing: border-box;
+}
+div.intro-info {
+    margin: 11px 0 15px 20px;
+    width: 45%;
+    box-sizing: border-box;
+    float: left;
+}
+section {
+    margin: 7px;
+    width: fit-content;
+    float: left;
+    margin-right: 10px;
+    padding: 7px;
+    font-size: 0.8rem;
+}
+section.delivery {
+    background-color: black;
+    border: 2px solid rgb(0, 207, 207);
+    color: rgb(0, 207, 207);
+}
+section.delivery:hover {
+    background-color: rgb(59, 59, 59);
+    transition: all 300ms;
+}
+section.reservation {
+    background-color: rgb(114, 85, 12);
+    color: rgb(255, 187, 0);
+    border: 2px solid rgb(255, 187, 0);
+}
+section.reservation:hover {
+    background-color: rgb(59, 59, 59);
+    transition: all 300ms;
+}
+div.intro-image {
+    background: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 55%;
+    height: 100%;
+    margin: 0;
+    margin-left: 30px;
+}
+
+#why-we {
+    height: 290px;
+    padding: 20px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+
+}
+.image-box {
+    display: flex;
+    width: 300px;
+    height: 220px;
+    margin: 30px;
+    color: white;
+    text-align: right;
+    border: 3px solid black;
+    align-items: flex-end;
+    justify-content: end;
+    
+}
+div.photo1 {
+    background-image: url("../pizzeria/olive-oil-1412361__340.jpg");
+    background-size: cover;
+    background-position: center;
+}
+div.photo2 {
+    background-image: url("../pizzeria/cook-1375788_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+}
+div.photo3 {
+    background-image: url("../pizzeria/motor-scooter-4837310_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+}
+div#menu {
+    background-color: black;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+div.menu-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+}
+article {
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+    min-height: 200px;
+    width: 150px;
+}
+section img {
+    width: 120px;
+    height: 75px;
+}
+section img:hover {
+    transform:scale(1.5);
+    transition: 3s;
+    border-radius: 15px;
+}
+
+footer li {
+    list-style: none;
+    margin: 15px;
+}
+div.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+div.contact ul li a{
+    color: white;
+}
+div.contact {
+    background-color: black;
+}
